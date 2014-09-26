@@ -1,1 +1,30 @@
-body{display:none}img.intro{display:block;margin:0 auto}.intro{width:50%;margin:auto;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:tanslate(-50,-50%);transform:transform(-50%,-50%)}
+div.content {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: transform(-50, -50%);
+}
+.fadein.ng-enter,
+.fadeout.ng-leave {
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  display: block !important;
+}
+.fadein.ng-enter {
+  opacity: 0;
+}
+.fadeout.ng-leave {
+  opacity: 1;
+}
+.fadein.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+.fadeout.ng-leave-active {
+  opacity: 0;
+}
