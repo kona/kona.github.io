@@ -14,24 +14,9 @@
 
     <div ng-view class="fadein fadeout content"></div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script> 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script> 
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular-animate.js"></script>
-    <script src="js/app.js"></script>  
-    <script type="text/javascript">
-    function downloadJSAtOnload() {
-        var bootstrap = document.createElement("script");
-        bootstrap.src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js";
-        document.body.appendChild(bootstrap);
-    }
-    if (window.addEventListener) {
-        window.addEventListener("load", downloadJSAtOnload, false);
-    }
-    else if (window.attachEvent) {
-        window.attachEvent("onload", downloadJSAtOnload);
-    }
-    else {
-        window.onload = downloadJSATOnload;
-    }
-    </script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
