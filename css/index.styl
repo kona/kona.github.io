@@ -8,27 +8,21 @@ div.content
   -ms-transform: translate(-50%, -50%)
   transform: transform(-50, -50%)
 
-.fadein.ng-enter,
-.fadeout.ng-leave {
-    -webkit-transition: all linear 0.5s;
-    -moz-transition: all linear 0.5s;
-    -o-transition: all linear 0.5s;
-    transition: all linear 0.5s;
-    display: block !important;
-}
+.fadein.ng-enter, .fadeout.ng-leave
+  -webkit-transition: all linear 0.5s
+  -moz-transition: all linear 0.5s
+  -o-transition: all linear 0.5s
+  transition: all linear 0.5s
+  display: block !important
 
-.fadein.ng-enter {
-    opacity: 0;
-}
+.fadein.ng-enter
+  opacity: 0
 
-.fadeout.ng-leave {
-    opacity: 1;
-}
+.fadeout.ng-leave
+  opacity: 1
 
-.fadein.ng-enter.ng-enter-active {
-    opacity: 1;
-}
+.fadein.ng-enter.ng-enter-active
+  opacity: 1
 
-.fadeout.ng-leave-active {
-    opacity: 0;
-}
+.fadeout.ng-leave-active
+  opacity: 0
