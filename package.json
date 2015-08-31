@@ -1,0 +1,22 @@
+{
+  "name": "kona.github.io",
+  "version": "1.0.0",
+  "description": "Kona website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kona/kona.github.io.git"
+  },
+  "keywords": [
+    "Kona"
+  ],
+  "author": "Christopher Sumnicht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kona/kona.github.io/issues"
+  },
+  "homepage": "https://github.com/kona/kona.github.io#readme"
+}
