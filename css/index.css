@@ -28,3 +28,6 @@ div.content {
 .fadeout.ng-leave-active {
   opacity: 0;
 }
+.intro img {
+  max-width: 100%;
+}
